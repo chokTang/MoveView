@@ -1,5 +1,8 @@
 # MoveView
 直接在XML文件中吊用 
+   <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
  <lazier.org.moveview.MoveView
             android:id="@+id/move_view"
             android:layout_width="wrap_content"
@@ -11,7 +14,8 @@
             app:circleR="60"
             app:isClickViewMove="true"
             />
-            
+                </FrameLayout>
+
  currentX currentY 指圆形图标初始化坐标
  circleR 只圆形图标半径 
  circleStock 圆形的秒变线宽度
