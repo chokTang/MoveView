@@ -1,7 +1,7 @@
 # MoveView
-=============================================
+=
 直接在XML文件中调用  可以修改其中属性 
-———————————-
+—
  ## 
 	 <FrameLayout
         	android:layout_width="match_parent"
