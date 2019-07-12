@@ -17,3 +17,16 @@
  circleStock 圆形的秒变线宽度
  colorMin 内圆形 颜色
  colorMax 描边 颜色
+
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ 
+ 
+ dependencies {
+	        implementation 'com.github.chokTang:MoveView:v1.0.0'
+	}
